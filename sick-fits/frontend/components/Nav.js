@@ -3,10 +3,10 @@ import Link from 'next/link';
 export default function Nav() {
   return (
     <nav>
-      <Link href="/">products</Link>
-      <Link href="/">sell</Link>
-      <Link href="/">orders</Link>
-      <Link href="/">accounts</Link>
+      <Link href="/">Products</Link>
+      <Link href="/">Sell</Link>
+      <Link href="/">Orders</Link>
+      <Link href="/">Accounts</Link>
     </nav>
   );
 }
