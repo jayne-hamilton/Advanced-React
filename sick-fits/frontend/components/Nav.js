@@ -5,9 +5,9 @@ export default function Nav() {
   return (
     <NavStyles>
       <Link href="/">Products</Link>
-      <Link href="/">Sell</Link>
-      <Link href="/">Orders</Link>
-      <Link href="/">Accounts</Link>
+      <Link href="/sell">Sell</Link>
+      <Link href="/orders">Orders</Link>
+      <Link href="/accounts">Accounts</Link>
     </NavStyles>
   );
 }
