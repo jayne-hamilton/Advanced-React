@@ -8,7 +8,7 @@ const HeaderStyles = styled.header`
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
   }
   .sub-bar {
     display: grid;
@@ -21,6 +21,7 @@ const Logo = styled.h1`
   font-size: 4rem;
   background: red;
   margin-bottom: 2rem;
+  margin-left: 2rem;
   position: relative;
   z-index: 2;
   transform: skew(-7deg);
@@ -37,11 +38,12 @@ export default function Header() {
         <Logo>
           <Link href="/">Style File</Link>
         </Logo>
+        <Nav />
       </div>
+
       <div className="sub-bar">
         <p>Search</p>
       </div>
-      <Nav />
     </HeaderStyles>
   );
 }

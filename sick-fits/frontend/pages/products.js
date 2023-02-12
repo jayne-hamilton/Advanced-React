@@ -1,3 +1,7 @@
-export default function Products() {
-  return <h1>hi</h1>;
+export default function OrderPage() {
+  return (
+    <div>
+      <p>products!</p>
+    </div>
+  );
 }

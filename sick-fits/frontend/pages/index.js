@@ -1,3 +1,3 @@
-export default function IndexPage() {
-  return <h1>Home Page</h1>;
-}
+import ProductsPage from './products';
+
+export default ProductsPage;
