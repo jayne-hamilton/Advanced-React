@@ -32,7 +32,7 @@ html {
 body {
   font-family: 'radnika_next',--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 0;
-  margin: 0 20px 0 20px;
+  margin: 0 20px 0;
   font-size: 1.5rem;
   line-height:2;
 }
