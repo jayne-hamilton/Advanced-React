@@ -1,3 +1,7 @@
-export default function Accounts() {
-  return <h1>Accounts</h1>;
+export default function OrderPage() {
+  return (
+    <div>
+      <p>Hello!</p>
+    </div>
+  );
 }
